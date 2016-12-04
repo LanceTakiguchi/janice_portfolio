@@ -152,16 +152,18 @@ body {
 
 .welcome {
 	font-family: "French Script MT";
-	background-color: black;
 	font-size: 10px;
 	margin: auto;
 	width: 50%;
-	max-width: 150px;
 	height: 60px;
 	padding-bottom: 25px;
 }
 
-
+.welcome h3{
+	display: inline-block;
+	color: black;
+	font-size: 50px;
+}
 
 h1 {
 	font-size:250%;
@@ -185,30 +187,35 @@ h3 {
 	text-align: center;
 }
 
-.h4toh6 {
+.description {
 	margin: auto;
-	display:inline;
-	clear:none;
-
+	display: inline-block;
+	width: 100%;
 }
 
-h4 {
+.description h4{
+	display: inline-block;
 	font-family: "Friz Quadrata Std";
+	font-size:25px;
+	margin-top: 25%;
+}
+
+#creative {
 	color: #50ACD2;
 }
 
-h5 {
-	margin-bottom:.5em;
-	font-family: "Friz Quadrata Std";
+#simplistic {
 	color:#0A8C99;
 }
 
-h6 {
-	font-size:10px;
-	margin-bottom:.5em;
-	font-family: "Friz Quadrata Std";
+#impactful {
 	color: #026176;
 }
+
+.myImage {
+	width: 5%
+}
+
 
 h7 {
 		font-family: "Friz Quadrata Std";
@@ -311,13 +318,4 @@ li.dropdown {
 
 #mainnav ul li:last-of-type a {
 	padding-right:0;
-}
-
-/********************* Media Queries ************************/
-@media (max-width: 1020px){
-
-	.wrapper {
-		padding: 0px 0px;
-	}
-
 }
