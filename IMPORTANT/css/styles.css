@@ -64,11 +64,11 @@ img { max-width: 100% }
 
 /************** IMAGE ************/
 #background {
-background: url("images/blueedited.png") no-repeat 50% 50% fixed;
-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
--webkit-background-size: cover;
+	background: url("../images/blueedited.png") no-repeat 50% 50% fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
 }
 
 /************** End Video ************/
@@ -79,26 +79,26 @@ body {font-family: Verdana,sans-serif;margin:0}
 
 /* Caption text */
 .text {
-  color: black;
-  font-size: 30px;
+	color: black;
+	font-size: 30px;
 	font-family: "Gill Sans MT";
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
 	text-align: center;
-  margin-bottom: 180px;
+	margin-bottom: 180px;
 }
 
 .paragraphtext {
 	color: #f2f2f2;
 	font-size: 20px;
 	font-family: "Helvetica Neue LT Std";
-  padding: 8px 12px;
-  position: absolute;
+	padding: 8px 12px;
+	position: absolute;
 	left: 375px;
-  bottom: 8px;
-  width: 400px;
+	bottom: 8px;
+	width: 400px;
 	text-align: justify;
 }
 
@@ -108,16 +108,16 @@ body {font-family: Verdana,sans-serif;margin:0}
 }
 
 .design {
-padding: 2%;
-max-width: 40%;
-max-height: 60%;
-position: relative;
-	 top: 0;
-	 left: 0;
-	 right: 0;
-	 bottom: 0;
-	 float:left;
- }
+	padding: 2%;
+	max-width: 40%;
+	max-height: 60%;
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	float:left;
+}
 
 .desdescription {
 	font-size: 25px;
@@ -147,6 +147,12 @@ position: relative;
 	display: inline-block;
 }
 
+.cloud {
+	width: 11vh;
+	position: relative;
+	z-index: 1;
+}
+
 /****************** Grid ******************/
 
 .row { overflow:hidden; margin-bottom: 40px; }
@@ -162,10 +168,10 @@ position: relative;
 /************* typography ************/
 
 body {
-  padding: 0;
-  margin: 0;
-  font-size: 22px;
-  text-align: center;
+	padding: 0;
+	margin: 0;
+	font-size: 22px;
+	text-align: center;
 	font-family: "Helvetica Neue LT Std";
 	position: relative;
 	z-index: 1;
@@ -228,7 +234,7 @@ h3 {
 }
 
 #creative {
-color: #50ACD2;
+	color: #50ACD2;
 }
 
 #simplistic {
@@ -240,9 +246,9 @@ color: #50ACD2;
 }
 
 h7 {
-		font-family: "Friz Quadrata Std";
-		font-size: 24px;
-		color: white;
+	font-family: "Friz Quadrata Std";
+	font-size: 24px;
+	color: white;
 }
 
 p {
@@ -261,33 +267,33 @@ a { color: black; }
 /********************* DESKTOP ************************/
 @media screen and (min-width:955px){
 
-     .width: 33.33%; }
+	.width: 33.33%; }
 
-@media screen and (max-width:600px){
-			.width {
-				width: 100%; }
-}
-/********************* TABLET ************************/
-@media screen and (min-width: 480px) and (max-width:955px){  .width: 50%; }
+	@media screen and (max-width:600px){
+		.width {
+			width: 100%; }
+		}
+		/********************* TABLET ************************/
+		@media screen and (min-width: 480px) and (max-width:955px){  .width: 50%; }
 
-/*********************MOBILE ************************/
-@media screen and (max-width: 480px){
-	  .width{
-			 width: 100%;}
-		 }
+		/*********************MOBILE ************************/
+		@media screen and (max-width: 480px){
+			.width{
+				width: 100%;}
+			}
 
- @media screen and (max-width: 1024px) { /* Specific to this particular image */
-		 	img.bg {
-		 		left: 50%;
-		 		margin-left: -512px;   /* 50% */
-		 	}
-		 }
+			@media screen and (max-width: 1024px) { /* Specific to this particular image */
+				img.bg {
+					left: 50%;
+					margin-left: -512px;   /* 50% */
+				}
+			}
 
-/*@media (max-width: 1020px)**/
+			/*@media (max-width: 1020px)**/
 
-footer {
-	font-size: 10px;
-	padding: 1%;
-	margin: auto;
-	font-family: "Gill Sans";
-}
+			footer {
+				font-size: 10px;
+				padding: 1%;
+				margin: auto;
+				font-family: "Gill Sans";
+			}

@@ -26,8 +26,8 @@ color: black;
 
 /* VIDEO */
 .smoke {
-    position: relative;
-    z-index: -1;
+    position: absolute;
+    z-index: -2;
     left: 0;
     right: 0;
     width: 100%;
