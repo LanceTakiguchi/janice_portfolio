@@ -1,0 +1,293 @@
+
+/********************* NOTES ************************
+I have included font awesome. The font for it is in the
+fonts folder and the css for it is in the fontawesomecss
+folder and imported below.
+****************************************************/
+@import 'fontawesomecss/font-awesome.min.css';
+
+
+/************* Eric Meyer CSS Reset ***************/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/******** Additional resets *********/
+a { text-decoration: none; }
+em { font-style: italic; }
+strong { font-weight: bold;}
+img { max-width: 100% }
+* { box-sizing: border-box; }
+
+/************** End CSS Reset ************/
+
+/************** IMAGE ************/
+#background {
+background: url("images/blueedited.png") no-repeat 50% 50% fixed;
+background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+-webkit-background-size: cover;
+}
+
+/************** End Video ************/
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;margin:0}
+.mySlides {display:none}
+
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 30px;
+	font-family: "Gill Sans MT";
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+	text-align: center;
+  margin-bottom: 180px;
+}
+
+.paragraphtext {
+	color: #f2f2f2;
+	font-size: 20px;
+	font-family: "Helvetica Neue LT Std";
+  padding: 8px 12px;
+  position: absolute;
+	left: 375px;
+  bottom: 8px;
+  width: 400px;
+	text-align: justify;
+}
+
+
+/* WORKKKKKKKKKKKKKKKKKKK*/
+#work {
+}
+
+.design {
+padding: 2%;
+max-width: 40%;
+max-height: 60%;
+position: relative;
+	 top: 0;
+	 left: 0;
+	 right: 0;
+	 bottom: 0;
+	 float:left;
+ }
+
+.desdescription {
+	font-size: 25px;
+	font-family: "Helvetica Neue LT Std";
+	color: black;
+	max-width: 50%;
+	float: right;
+	padding: 2%;
+	text-align: left;
+	position: relative;
+
+}
+
+.row {
+	background-color: rgba(67,173,226,0.2);
+	font-size: 10px;
+	font-family: "Gill sans MT";
+	margin: 10px auto 0px auto;
+	width: 50%;
+}
+
+#legacy {
+	display: inline-block;
+}
+
+#book {
+	display: inline-block;
+}
+
+/****************** Grid ******************/
+
+.row { overflow:hidden; margin-bottom: 40px; }
+.column { float: left; margin-left:4%; }
+.column:first-of-type { margin-left:0; }
+
+.full { width: 100%; }
+.half { width: 48%; }
+.one-quarter { width:22%; }
+.one-third { width:30.6666666667%; }
+.two-thirds { width:65.3333333333%; }
+.three-quarters { width:74.0%; }
+/************* typography ************/
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 22px;
+  text-align: center;
+	font-family: "Helvetica Neue LT Std";
+	position: relative;
+	z-index: 1;
+	font-family:Georgia;
+	color: black;
+}
+
+.welcome {
+	font-family: "French Script MT";
+	margin: auto;
+	width: 50%;
+	height: 60px;
+	padding-bottom: 25px;
+}
+
+.welcome h3 {
+	display: inline-block;
+	font-size: 50px;
+	color: black;
+}
+
+.myimage {
+	width: 3%;
+}
+
+h1 {
+	font-size:250%;
+	margin-bottom:1em;
+	font-family: "French Script MT";
+	text-align: center;
+}
+
+h2 {
+	font-size:250%;
+	margin-bottom:1em;
+	font-family: "Baskerville";
+	font-stretch: expanded;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h3 {
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+.description {
+	margin: auto;
+	display:inline;
+	clear:none;
+}
+
+.description h4 {
+	font-family: "Friz Quadrata Std";
+	margin-bottom:.2em;
+	font-size: 20px;
+	display: inline-block;
+	margin-top: 15%;
+}
+
+#creative {
+color: #50ACD2;
+}
+
+#simplistic {
+	color:#0A8C99;
+}
+
+#impactful {
+	color: #026176;
+}
+
+h7 {
+		font-family: "Friz Quadrata Std";
+		font-size: 24px;
+		color: white;
+}
+
+p {
+	line-height:1.5em;
+	margin-bottom:1em;
+}
+
+a { color: black; }
+
+.social { font-size:175%; }
+
+.centered { text-align:center; }
+
+
+/********************* Media Queries ************************/
+/********************* DESKTOP ************************/
+@media screen and (min-width:955px){
+
+     .width: 33.33%; }
+
+@media screen and (max-width:600px){
+			.width {
+				width: 100%; }
+}
+/********************* TABLET ************************/
+@media screen and (min-width: 480px) and (max-width:955px){  .width: 50%; }
+
+/*********************MOBILE ************************/
+@media screen and (max-width: 480px){
+	  .width{
+			 width: 100%;}
+		 }
+
+ @media screen and (max-width: 1024px) { /* Specific to this particular image */
+		 	img.bg {
+		 		left: 50%;
+		 		margin-left: -512px;   /* 50% */
+		 	}
+		 }
+
+/*@media (max-width: 1020px)**/
+
+footer {
+	font-size: 10px;
+	padding: 1%;
+	margin: auto;
+	font-family: "Gill Sans";
+}

@@ -1,27 +1,74 @@
-/*************** Header and Main Navigation *************/
 /*************** NAVBAR*************/
-	ul {
+#logo {
+  float:left;
+  margin-right:20px;
+}
+
+#mainnav {
+  width: 280px;
+  float:right;
+}
+
+#mainnav ul li {
+  float:left;
+}
+
+#mainnav ul li a {
+  font-family: "Friz Quadrata Std";
+  display:block;
+  color: black;
+  border-left: 1px solid black;
+  padding:0 20px;
+  font-size:13px;
+  font-stretch: condensed;
+}
+
+#mainnav ul li:first-of-type a {
+  border:none;
+}
+
+#mainnav ul li:last-of-type a {
+  padding-right:0;
+}
+
+nav {
+}
+
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333;
+    background-color: #41B7E9;
+    font-family: "Friz Quadrata Std";
+    position: fixed; /* Make it stick, even on scroll */
+    max-width: 10%;
 }
 
 li {
     float: left;
 }
 
+li a.active {
+    background-color: black;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
 li a, .dropbtn {
     display: inline-block;
-    color: white;
+    background-color: rgba(110,201,236,0.1);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 20px;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+
 }
 
 li.dropdown {

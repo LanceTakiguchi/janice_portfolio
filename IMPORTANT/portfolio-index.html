@@ -1,148 +1,179 @@
 <!doctype html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<head>
-	<meta charset="UTF-8">
-	<!--Put your name in the title of the page-->
-	<title>Janice Takiguchi</title>
-	<link rel="stylesheet" href="css/style.css" type="text/css"/>
-	<link rel="stylesheet" href="css/panel.css" type="text/css"/>
-	<link rel="stylesheet" href="css/navbar.css" type="text/css"/>
-	<!--Put a short description for your site below. 20 words or less-->
-	<meta description="A short description for your site...">
-		<!--If you want to make the page responsive, remove the comment around the meta tag below this line...
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-	-->
-	<script src="js/panel.js">  </script>
-</head>
-<body>
-	<video loop muted autoplay poster="images/stillblue.jpg" class="fullscreen-bg__video">
-		<source src="smoke.mp4" type="video/mp4">
-			<source src="smoke.webm" type="video/webm">
-			</video>
-			<ul>
-				<li class="dropdown">
-					<a href="javascript:void(0)" class="dropbtn">Back To Top</a>
-					<div class="dropdown-content">
-						<a href="#">Typeface Poster</a>
-						<a href="#">Legacy Poster</a>
-						<a href="#">Type Hierarchy 1</a>
-						<a href="#">Type Hierarchy 2</a>
-						<a href="#">Book Cover Design</a>
-						<a href="#">Tumblr Layout</a>
-						<a href="#"></a>
-						<a href="#"></a>
-					</div>
-				</li>
-			</ul>
-			<header>
-				<div>
-					<article class="welcome">
-						<img src="images/welcomesymbols.png" class="myImage">
-						<h3 id="greeting">Welcome</h3>
-						<img src="images/welcomesymbols.png" class="myImage">
-					</article>
-				</div>
-			</header>
+	<head>
+		<meta charset="UTF-8">
+		<title>Janice Takiguchi/Portfolio</title>
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/panel.css">
+		<link rel="stylesheet" href="css/navbar.css">
+		<meta description="A short description for your site...">
+		<script src="js/panel.js"> </script>
+		<a name="top"></a>
+	</head>
 
-			<div class="slideshow-container">
-				<div class="mySlides fade">
-					<div class="numbertext">1 / 4</div>
-					<h2>Takiguchi Design</h2>
-					<div class="description">
-						<h4 id="creative"> Creative.</h4>
-						<h4 id="simplistic"> Simplistic. </h4>
-						<h4 id="impactful"> Impactful. </h4>
-					</div>
-				</div>
+	<body id="background">
 
-				<div class="mySlides fade">
-					<div class="numbertext">2 / 4</div>
-					<div class="text"> About Janice</div>
-					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inci Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inciLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inci
-					</p>
-				</div>
+				<ul>
+				  <li class="dropdown">
+				    <a href="#top" "javascript:void(0)" class="dropbtn">Back To Top</a>
+				    <div class="dropdown-content">
+				      <a href="#typeface">Typeface Poster</a>
+				      <a href="#legacy">Legacy Poster</a>
+							<a href="#type1">Type Hierarchy 1</a>
+							<a href="#type2">Type Hierarchy 2</a>
+							<a href="#book">Book Cover Design</a>
+							<a href="#tumblr">Tumblr Layout</a>
+				    </div>
+				  </li>
+				</ul>
 
-				<div class="mySlides fade">
-					<div class="numbertext">3 / 4</div>
-					<div class="text"> Work </div>
-					<img class="graph" src="images/skillsgraph.png" alt="Skills Graph">
-				</div>
 
-				<div class="mySlides fade">
-					<div class="numbertext">4 / 4</div>
-					<div class="text"> Contact </div>
-					<div>
-						<img class="contacticon" src="images/email_icon.png" alt="Email">
-						<p class="contact">jetakiguchi@ucdavis.edu</p>
-					</div>
-					<br>
-					<div>
-						<img class="contacticon" src="images/phone.png" alt="Phone Number">
-						<p class="contact">909-815-1893</p>
-					</div>
-				</div>
-
-				<a class="prev" onclick="plusSlides(-1)">❮</a>
-				<a class="next" onclick="plusSlides(1)">❯</a>
-
-				<div class="dot_slides">
-					<span class="dot" onclick="currentSlide(1)"></span>
-					<span class="dot" onclick="currentSlide(2)"></span>
-					<span class="dot" onclick="currentSlide(3)"></span>
-					<span class="dot" onclick="currentSlide(4)"></span>
-				</div>
+		<header>
+			<div>
+			 <article class="welcome">
+				 <img src="images/welcomesymbols.png" class="myimage">
+				 <h3>Welcome</h3>
+				 <img src="images/welcomesymbols.png" class="myimage">
+			 </article>
 			</div>
-			<br>
-			<section id="work">
+	 	</header>
 
-				<div class="wrapper">
-					<div class="row">
-					</div> <!-- end row -->
 
-					<div class="row">
-						<article class="column full">
+		<div class="slideshow-container">
+	<video class="smoke" autoplay="autoplay" controls="loop"> <source src="smoke.mp4" type="video/mp4"></video>
+	<div class="mySlides fade">
+	  <div class="numbertext">1 / 4</div>
+	  <h2>Takiguchi Design</h2>
+			<article class="description">
+					<h4 id="creative"> Creative.</h4>
+					<h4 id="simplistic"> Simplistic. </h4>
+					<h4 id="impactful"> Impactful. </h4>
+				</article>
+			</div>
+
+	<div class="mySlides fade">
+	  <div class="numbertext">2 / 4</div>
+	  <div class="text"> About Janice</div>
+		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inci Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inciLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inci
+		</p>
+	</div>
+
+	<div class="mySlides fade">
+	  <div class="numbertext">3 / 4</div>
+	  <div class="text"> Work </div>
+		<img class="graph" src="images/skillsgraph.png" alt="Skills Graph">
+	</div>
+
+	<div class="mySlides fade">
+	  <div class="numbertext">4 / 4</div>
+	  <div class="text"> Contact </div>
+	<div>
+		<img class="contacticon" src="images/email_icon.png" alt="Email"><p class="contact">jetakiguchi@ucdavis.edu</p>
+	</div>
+	<div>
+		<img class="contacticon" src="images/phone.png" alt="Phone Number"><p class="contact">909-815-1893</p>
+	</div>
+	</div>
+
+
+	<a class="prev" onclick="plusSlides(-1)">❮</a>
+	<a class="next" onclick="plusSlides(1)">❯</a>
+
+			<div class="dotslides">
+			  <span class="dot" onclick="currentSlide(1)"></span>
+			  <span class="dot" onclick="currentSlide(2)"></span>
+			  <span class="dot" onclick="currentSlide(3)"></span>
+				<span class="dot" onclick="currentSlide(4)"></span>
+			</div>
+
+</div>
+<br>
+
+		<section id="work">
+
+			<div class="wrapper">
+
+				<div class="row">
+					<article class="column full">
+						<div id="typeface">
 							<h7>Typeface Poster</h7>
-							<img src="images/typeface-poster.png" alt="image" style="width:10%;">
+						</div>
+						<img class="design" src="images/typeface-poster.png" alt="image">
+							<p class="desdescription"> A typographic poster based on the serif typeface called "Baskerville," designed by John Baskerville in 1757. Color theme includes dark purple and blues for an added richness effect.
+							This poster showcases the entire lowercase and uppercase alphabet, as well all the numbers of Baskerville. Special feautured letters include uppercase Q, H, and an ampersand.
+							</p>
+					</article>
+				</div>
 
-						</article>
-
-						<article class="column full">
+				<div class="row">
+					<article class="column full">
 							<h7>Legacy Poster</h7>
-							<img src="images/legacy-poster.png" alt="image" style="width:10%;">
-
-						</article>
+					<div id="legacy">
+							<img class="design" src="images/legacy-poster.png" alt="image">
+							<p class="desdescription">
+								This poster features the legacy left behind by Paul Rand, a graphic designer who lived from 1914-1996. Paul Rand's corportate logo designs are highlighted in this poster as he is best known them.
+								They include: IBM, UPS, Enron, Morningstar, Inc., Westinghouse, ABC, NeXT, and more.
+						</p>
 					</div>
+					</article>
+				</div>
 
-					<div class="row">
-						<article class="column full">
+				<div class="row">
+					<article class="column full">
+						<div id="type1">
 							<h7>Type Hierarchy Poster 1 </h7>
-							<img src="images/typeposter1.png" alt="image" style="width:10%;">
+						</div>
+						<img class="design" src="images/typeposter1.png" alt="image">
+							<p class="desdescription">
+								A typographic poster that highlights the sans-serif font "Univers," designed by Adrian Frutiger in 1954.
+								This poster's informational content is entirely fictional. It showcases a lecture series that might have been held at the University of California Davis campus by famous designers.
+							</p>
+					</article>
+				</div>
 
-						</article>
-
-						<article class="column full">
+				<div class="row">
+					<article class="column full">
+						<div id="type2">
 							<h7>Type Hierarchy Poster 2</h7>
-							<img src="images/typeposter2.png" alt="image" style="width:10%;">
+						</div>
+						<img class="design" src="images/typeposter2.png" alt="image">
+							<p class="desdescription">
+								A different version of the typographic poster that highlights the font-family of the sans-serif font "Univers," designed by Adrian Frutiger in 1954.
+								This poster's informational content is entirely fictional. It showcases a lecture series that might have been held at the University of California Davis campus by famous designers.
+							</p>
+					</article>
+				</div>
 
-						</article>
+				<div class="row">
+					<article class="column full">
+							<h7>Book Cover Design</h7>
+					<div id="book">
+							<img class="design" src="images/bookcover.png" alt="image">
+							<p class="desdescription">
+							This cover design is a showcase into what the 33-pages of this book look like. This book's design uses the font-family of "Frutiger."
+							The informational content inside is based upon excerpts from Paul Rand's article titled: "Design and the Play Instinct."
+							</p>
 					</div>
-
-					<article class="column full">
-						<h7>Book Cover Design</h7>
-						<img src="images/bookcover.png" alt="image" style="width:10%;">
-
 					</article>
+				</div>
 
+				<div class="row">
 					<article class="column full">
-						<h7>Tumblr Layout</h7>
-						<img src="images/tumblr.jpg" alt="image" style="width:10%;">
-
+						<div id="tumblr">
+							<h7>Tumblr Layout</h7>
+						</div>
+							<img class="design" src="images/tumblr.jpg" alt="image">
+							<p class="desdescription">
+							The featured theme in this layout is titled "Galaxy." This blog layout was made using the Tumblr interface and was created for both personal and educational use.
+							All coding and design was created by Janice Takiguchi.
+							</p>
 					</article>
-
-				</div><!-- end row -->
-
-			</div> <!-- end work wrapper -->
+				</div>
+			</div><!-- end row -->
+			</div>
 		</section>
+
+		<footer> Copyright © Janice Takiguchi 2016. All rights reserved. </footer>
 	</body>
-	</html>
+</html>
