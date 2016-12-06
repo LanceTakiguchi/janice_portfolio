@@ -64,11 +64,11 @@ img { max-width: 100% }
 
 /************** IMAGE ************/
 #background {
-background: url("../images/blueedited.png") no-repeat 50% 50% fixed;
-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
--webkit-background-size: cover;
+	background: url("../images/blueedited.png") no-repeat 50% 50% fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
 }
 
 /************** End Video ************/
@@ -79,16 +79,16 @@ body {font-family: Verdana,sans-serif;margin:0}
 /* WORKKKKKKKKKKKKKKKKKKK*/
 
 .design {
-padding: 2%;
-max-width: 40%;
-max-height: 10%;
-position: relative;
-	 top: 0;
-	 left: 0;
-	 right: 0;
-	 bottom: 0;
-	 float:left;
- }
+	padding: 2%;
+	max-width: 40%;
+	max-height: 10%;
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	float:left;
+}
 
 .desdescription {
 	font-size: 25px;
@@ -112,8 +112,8 @@ position: relative;
 	border-color: #004B5F;
 	border: 15px solid;
 	-webkit-border-image: url(../images/border1.png) 30 stretch; /* Safari 3.1-5 */
-	 -o-border-image: url(../images/border1.png) 30 stretch; /* Opera 11-12.1 */
-	 border-image: url(../images/border1.png) 30 stretch;
+	-o-border-image: url(../images/border1.png) 30 stretch; /* Opera 11-12.1 */
+	border-image: url(../images/border1.png) 30 stretch;
 }
 
 /****************** Grid ******************/
@@ -131,10 +131,10 @@ position: relative;
 /************* typography ************/
 
 body {
-  padding: 0;
-  margin: 0;
-  font-size: 22px;
-  text-align: center;
+	padding: 0;
+	margin: 0;
+	font-size: 22px;
+	text-align: center;
 	font-family: "Helvetica Neue LT Std";
 	position: relative;
 	z-index: 1;
@@ -196,9 +196,9 @@ h3 {
 }
 
 h7 {
-		font-family: "Friz Quadrata Std";
-		font-size: 24px;
-		color: white;
+	font-family: "Friz Quadrata Std";
+	font-size: 24px;
+	color: white;
 }
 
 p {
@@ -211,39 +211,67 @@ a { color: black; }
 .social { font-size:175%; }
 
 .centered { text-align:center; }
+/****************** Contact Form ******************/
+#contact_form {
+	width: 100%;
+}
 
+#contact_form form {
+	margin: auto;
+	width: 50%;
+}
+
+#contact_form input, textarea {
+	float: left;
+	width: 100%;
+}
+
+#contact_form label {
+	float: left;
+	color: white;
+}
+
+#contact_form button {
+	float: left;
+	width: 25%;
+	font-size: 22px;
+	font-family: "Helvetica Neue LT Std";
+	background-color: #3e4673;
+	color: white;
+	border: 0;
+}
 
 /********************* Media Queries ************************/
 /********************* DESKTOP ************************/
 @media screen and (min-width:955px){
 
-     .width: 33.33%; }
+	.width: 33.33%; }
 
-@media screen and (max-width:600px){
-			.width {
-				width: 100%; }
-}
-/********************* TABLET ************************/
-@media screen and (min-width: 480px) and (max-width:955px){  .width: 50%;}
+	@media screen and (max-width:600px){
+		.width {
+			width: 100%; }
+		}
+		/********************* TABLET ************************/
+		@media screen and (min-width: 480px) and (max-width:955px){  .width: 50%;}
 
-/*********************MOBILE ************************/
-@media screen and (max-width: 480px){
-	  .width{
-			 width: 100%;}
-		 }
+		/*********************MOBILE ************************/
+		@media screen and (max-width: 480px){
+			.width{
+				width: 100%;}
+			}
 
- @media screen and (max-width: 1024px) { /* Specific to this particular image */
-		 	img.bg {
-		 		left: 50%;
-		 		margin-left: -512px;   /* 50% */
-		 	}
-		 }
+			@media screen and (max-width: 1024px) { /* Specific to this particular image */
+				img.bg {
+					left: 50%;
+					margin-left: -512px;   /* 50% */
+				}
+			}
 
-/*@media (max-width: 1020px)**/
+			/*@media (max-width: 1020px)**/
 
-footer {
-	font-size: 10px;
-	padding: 1%;
-	margin: auto;
-	font-family: "Gill Sans";
-}
+			footer {
+				font-size: 10px;
+				padding: 1%;
+				margin: auto;
+				font-family: "Gill Sans";
+			}
