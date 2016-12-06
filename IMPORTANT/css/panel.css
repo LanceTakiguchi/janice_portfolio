@@ -1,4 +1,8 @@
 /* Slideshow container */
+#first_panel {
+  display: block;
+}
+
 .slideshow-container {
 font-size: 10px;
 font-family: "Gill sans MT";
