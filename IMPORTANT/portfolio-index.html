@@ -41,7 +41,6 @@
 
 
 		<div class="slideshow-container">
-	<video class="smoke" loop autoplay> <source src="smoke.mp4" type="video/mp4"></video>
 	<div class="mySlides fade">
 	  <div class="numbertext">1 / 4</div>
 	  <h2>Takiguchi Design</h2>
@@ -54,8 +53,9 @@
 
 	<div class="mySlides fade">
 	  <div class="numbertext">2 / 4</div>
-	  <div class="text"> About Janice</div>
-		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inci Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inciLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inci
+	  <div class="text">About Janice</div>
+		<p class="aboutme"> Hello there! Welcome to my page. My name is Janice Takiguchi, and I am a 19 year old artist who has been drawing my whole life. I have 5 years of design experience, with my current
+			passion being typographic graphic design. The programs I know include but are not limited to: Adobe Illustrator, Photoshop, and InDesign.
 		</p>
 	</div>
 
@@ -74,6 +74,21 @@
 	<div>
 		<img class="contacticon" src="images/phone.png" alt="Phone Number"><p class="contact">909-815-1893</p>
 	</div>
+	<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+		<div class="row">
+			<label for="name">Your name:</label><br />
+			<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+		</div>
+		<div class="row">
+			<label for="email">Your email:</label><br />
+			<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+		</div>
+		<div class="row">
+			<label for="message">Your message:</label><br />
+			<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+		</div>
+		<input id="submit_button" type="submit" value="Send email" />
+	</form>
 	</div>
 
 
@@ -92,13 +107,12 @@
 
 		<section id="work">
 			<div class="wrapper">
+
 				<div class="row">
-					<div id="typeface">
+					<div id="typeface" class="rowborder">
 						<h7>Typeface Poster</h7>
 					</div>
-					<img class="cloud" src="images/cloud-icon-22.png" alt="image">
 				</div>
-
 				<div class="row">
 					<article class="column full">
 						<img class="design" src="images/typeface-poster.png" alt="image">
@@ -109,67 +123,77 @@
 				</div>
 
 				<div class="row">
-					<article class="column full">
+						<div id="legacy" class="rowborder">
 							<h7>Legacy Poster</h7>
-					<div id="legacy">
-							<img class="design" src="images/legacy-poster.png" alt="image">
-							<p class="desdescription">
-								This poster features the legacy left behind by Paul Rand, a graphic designer who lived from 1914-1996. Paul Rand's corportate logo designs are highlighted in this poster as he is best known them.
-								They include: IBM, UPS, Enron, Morningstar, Inc., Westinghouse, ABC, NeXT, and more.
-						</p>
+						</div>
 					</div>
+							<div class="row">
+								<article class="column full">
+									<img class="design" src="images/legacy-poster.png" alt="image">
+									<p class="desdescription">
+										This poster features the legacy left behind by Paul Rand, a graphic designer who lived from 1914-1996. Paul Rand's corportate logo designs are highlighted in this poster as he is best known them.
+										They include: IBM, UPS, Enron, Morningstar, Inc., Westinghouse, ABC, NeXT, and more.
+									</p>
 					</article>
 				</div>
 
-				<div class="row">
-					<article class="column full">
-						<div id="type1">
+					<div class="row">
+						<div id="type1" class="rowborder">
 							<h7>Type Hierarchy Poster 1 </h7>
 						</div>
-						<img class="design" src="images/typeposter1.png" alt="image">
-							<p class="desdescription">
-								A typographic poster that highlights the sans-serif font "Univers," designed by Adrian Frutiger in 1954.
-								This poster's informational content is entirely fictional. It showcases a lecture series that might have been held at the University of California Davis campus by famous designers.
-							</p>
+					</div>
+								<div class="row">
+									<article class="column full">
+										<img class="design" src="images/typeposter1.png" alt="image">
+											<p class="desdescription">
+												A typographic poster that highlights the sans-serif font "Univers," designed by Adrian Frutiger in 1954.
+												This poster's informational content is entirely fictional. It showcases a lecture series that might have been held at the University of California Davis campus by famous designers.
+											</p>
 					</article>
 				</div>
 
 				<div class="row">
-					<article class="column full">
-						<div id="type2">
+					<div id="type2" class="rowborder">
 							<h7>Type Hierarchy Poster 2</h7>
 						</div>
-						<img class="design" src="images/typeposter2.png" alt="image">
-							<p class="desdescription">
-								A different version of the typographic poster that highlights the font-family of the sans-serif font "Univers," designed by Adrian Frutiger in 1954.
-								This poster's informational content is entirely fictional. It showcases a lecture series that might have been held at the University of California Davis campus by famous designers.
-							</p>
-					</article>
-				</div>
-
-				<div class="row">
-					<article class="column full">
-							<h7>Book Cover Design</h7>
-					<div id="book">
-							<img class="design" src="images/bookcover.png" alt="image">
-							<p class="desdescription">
-							This cover design is a showcase into what the 33-pages of this book look like. This book's design uses the font-family of "Frutiger."
-							The informational content inside is based upon excerpts from Paul Rand's article titled: "Design and the Play Instinct."
-							</p>
 					</div>
+						<div class="row">
+							<article class="column full">
+								<img class="design" src="images/typeposter2.png" alt="image">
+									<p class="desdescription">
+										A different version of the typographic poster that highlights the font-family of the sans-serif font "Univers," designed by Adrian Frutiger in 1954.
+										This poster's informational content is entirely fictional. It showcases a lecture series that might have been held at the University of California Davis campus by famous designers.
+								</p>
 					</article>
 				</div>
 
 				<div class="row">
-					<article class="column full">
-						<div id="tumblr">
+					<div id="book" class="rowborder">
+						<h7>Book Cover Design</h7>
+					</div>
+				</div>
+					<div class="row">
+						<article class="column full">
+							<img class="design" src="images/bookcover.png" alt="image">
+								<p class="desdescription">
+									This cover design is a showcase into what the 33-pages of this book look like. This book's design uses the font-family of "Frutiger."
+									The informational content inside is based upon excerpts from Paul Rand's article titled: "Design and the Play Instinct."
+							</p>
+					</article>
+				</div>
+
+				<div class="row">
+						<div id="tumblr" class="rowborder">
 							<h7>Tumblr Layout</h7>
 						</div>
-							<img class="design" src="images/tumblr.jpg" alt="image">
-							<p class="desdescription">
-							The featured theme in this layout is titled "Galaxy." This blog layout was made using the Tumblr interface and was created for both personal and educational use.
-							All coding and design was created by Janice Takiguchi.
-							</p>
+					</div>
+						<div class="row">
+							<article class="column full">
+								<img class="design" src="images/tumblr.jpg" alt="image">
+								<p class="desdescription">
+									The featured theme in this layout is titled "Galaxy." This blog layout was made using the Tumblr interface and was created for both personal and educational use.
+									All coding and design was created by Janice Takiguchi.
+								</p>
 					</article>
 				</div>
 			</div><!-- end row -->
